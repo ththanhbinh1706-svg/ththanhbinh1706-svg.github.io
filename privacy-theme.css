@@ -1,0 +1,8 @@
+/* Phối màu cho privacy.html cũ. Thêm dòng sau TRƯỚC </head> trong privacy.html:
+   <link rel="stylesheet" href="privacy-theme.css">
+   Không thay đổi nội dung chính sách bảo mật đã công bố. */
+:root{--forest:#064e3b;--green:#047857}
+body{background:linear-gradient(160deg,#f8fdf9,#eaf8f0);color:#173d2b;font-family:'Segoe UI',Arial,sans-serif}
+.container{border:1px solid #deeee5;border-top:6px solid #059669;box-shadow:0 14px 38px rgba(6,78,59,.10);border-radius:18px}
+h1,h2{color:#065f46}a{color:#047857}a:hover{color:#064e3b}
+.footer{border-color:#d5e9dd}
